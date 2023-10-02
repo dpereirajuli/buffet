@@ -8,7 +8,7 @@
 /* TOPO COM IMG */
 .selection-topo{
     width: 100%;
-    background-image: url(/assets/fundo.png);
+    background-image: url(./assets/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
