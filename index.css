@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+
+/* TOPO COM IMG */
+.selection-topo{
+    width: 100%;
+    background-image: url(/assets/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.selection-topo-img{
+    margin: auto;
+    text-align: center;
+    padding: 5% 0;
+    font-size: 2rem;
+}
+
+.selection-topo-img img{
+    max-width: 40%;
+    padding: 1% 0;
+}
+/* FIM TOPO COM IMG */
+
+
+
+
+
+
+
+
+
+
+/* DIVISOR */
+hr{
+    height: 50px;
+}
+/* FIM DIVISOR */
+
+
+
+
+
+
+
+
+
+
+
+
+/* MENSAGEM COM IMG */
+.selection-mensagem{
+    width: 100%;   
+    background-image: url(./assets/fundo3.png);
+    background-size: cover;
+    background-color: rgba(164, 76, 252, 0.75);
+    padding: 5% 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+
+}
+
+.selection-mensagem img{
+    max-width: 20%;
+}
+/* FIM MENSAGEM COM IMG */
+
+
+
+
+
+
+
+
+
+
+
+/* INFO COM IMG */
+.selection-informacoes{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    background-image: url(./assets/fundo4.png);
+    background-size: cover;
+    background-color: #FFD2F0;
+}
+
+.selection-informacoes img{
+    max-width: 20%;
+    margin-top: 10px;
+}
+
+.informacoes{
+    display: flex;
+    margin:  auto;
+    width: 70%;
+    justify-content: center;
+}
+
+.informacoes div{
+    padding: 10px;
+}
+/* FIM INFO COM IMG */
+
+
+
+
+
+
+
+
+
+a{
+    background-color: rgb(250, 115, 137);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* PRESENÇA */
+  .selection-presenca{
+    width: 100%;
+    background-color: rgba(164, 76, 252, 0.75);
+    background-image: url(./assets/fundo5.png);
+    background-size: cover;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 100px 0;
+  }
+
+  .selection-presenca img{
+    max-width: 20%;
+  }
+
+  .selection-presenca .dados-presenca{
+    padding: 10px;
+    line-height: 100px;
+  }
+/* FIM PRESENÇA */
+
+
+
+
+
+
+
+
+
+
+/* CONFIRMAR PRESENÇA */
+
+.selection-presenca-confirmar{
+    background-color: #FFD2F0;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 100px 0 ;
+    line-height: 100px;
+    font-family: Impact, fantasy;
+  }
+
+  .selection-presenca-confirmar img{
+    max-width: 30%;
+  }
+
+/* FIM CONFIRMAR PRESENÇA */
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer{
+    background-color: rgba(164, 76, 252, 0.75);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .footer a{
+    margin-left: 100px;
+  }
+/* FIM FOOTER */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1285px) {
+    .selection-topo{
+        background-image: url(./assets/fundo2.png);
+        background-size: contain;
+    }
+
+    .selection-topo-img{
+        font-size: 1.2rem;
+    }
+
+    .selection-mensagem .texto-mensagem{
+        font-size: 1rem;
+        line-height: 30px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .selection-mensagem h1{
+        font-size: 1.5rem;
+    }
+
+
+
+    .selection-informacoes{
+        font-size: 1rem;
+    }
+
+    .selection-informacoes h1{
+        font-size: 1.5rem;
+    }
+
+
+
+    .selection-informacoes h2{
+        font-size: 1.2rem;
+    }
+
+    .selection-informacoes .informacoes{
+        display: inline;
+        font-size: 1rem;
+    }
+
+
+    .selection-presenca{
+        font-size:1rem;
+    }
+
+    .selection-presenca h1{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .selection-presenca-confirmar h1{
+        font-size: 1.5rem;
+    }
+
+    .selection-presenca-confirmar h2{
+        font-size: 1.2rem;
+    }
+
+    .selection-presenca-confirmar{
+        line-height: 30px;
+    }
+
+    .selection-presenca-confirmar div{
+        width: 90%;
+        margin: auto;
+    }
+  }
+
+
+  @media only screen and (max-width: 680px) {
+    .footer{
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 80px;
+    }
+  }
+
+  @media only screen and (max-width: 527px) {
+    .informacoes iframe{
+        width: 300px;
+    }
+  }
+  
