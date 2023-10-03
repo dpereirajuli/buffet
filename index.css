@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: cursive;
 }
 
 
@@ -173,7 +172,6 @@ a{
     text-align: center;
     padding: 100px 0 ;
     line-height: 100px;
-    font-family: Impact, fantasy;
   }
 
   .selection-presenca-confirmar img{
